@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="simple_inventory_mending"
+version="${version}"
+displayName="Simple Inventory Mending"
+description="Mending works anywhere in your inventory."
+authors="dxxi3d"
+displayURL="https://github.com/dxxi3d/simple_inventory_mending"
+issueTrackerURL="https://github.com/dxxi3d/simple_inventory_mending/issues"
+logoFile="assets/simple_inventory_mending/icon.png"
+
+[[mixins]]
+config="simple_inventory_mending.mixins.json"
+
+[[dependencies.simple_inventory_mending]]
+modId="forge"
+mandatory=true
+versionRange="[1,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.simple_inventory_mending]]
+modId="minecraft"
+mandatory=true
+versionRange="[${minecraft_version},)"
+ordering="NONE"
+side="BOTH"

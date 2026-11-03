@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "simple_inventory_mending",
+  "version": "${version}",
+  "name": "Simple Inventory Mending",
+  "description": "Mending works anywhere in your inventory.",
+  "authors": [
+    "dxxi3d"
+  ],
+  "contact": {
+    "sources": "https://github.com/dxxi3d/simple_inventory_mending",
+    "issues": "https://github.com/dxxi3d/simple_inventory_mending/issues"
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/simple_inventory_mending/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dxxi3d.simple_inventory_mending.MainFabric"
+    ]
+  },
+  "mixins": [
+    "simple_inventory_mending.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": ">=${minecraft_version}",
+    "java": ">=25"
+  }
+}

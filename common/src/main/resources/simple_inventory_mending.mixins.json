@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dxxi3d.simple_inventory_mending.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ExperienceOrbMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
