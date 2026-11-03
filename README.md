@@ -8,6 +8,10 @@ Mending works anywhere in your inventory.
 
 * Repairs equipped gear first, then items in the player inventory.
 
+## Download
+* [Modrinth](https://modrinth.com/mod/simple-inventory-mending)
+* [CurseForge](https://www.curseforge.com/minecraft/mc-mods/simple-inventory-mending)
+
 ## Issues & Feedback
 If you encounter any bugs or have feature requests, please report them on the [GitHub Issue Tracker](https://github.com/dxxi3d/simple_inventory_mending/issues).
 
